@@ -44,6 +44,7 @@ Demo
 ====
 
 [lazy binding with current date](http://jsbin.com/ayewok/2/edit)
+
 [lazy binding with ngRepeat](http://jsbin.com/eguyap/2/edit)
 
 
