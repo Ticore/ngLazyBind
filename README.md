@@ -12,7 +12,8 @@ Usage
 
 Require lazyBind and inject the service, link scope and assign to a scope variable.
 
-```angular.module('app', ['lazyBind'])
+```javascript
+angular.module('app', ['lazyBind'])
     .controller('Ctrl', function($scope, $lazyBind) {
         $scope.lazy = $lazyBind($scope);
     });
@@ -20,7 +21,7 @@ Require lazyBind and inject the service, link scope and assign to a scope variab
 
 Then use lazy function warp target expression in the ui template or watchers.
 
-```
+```html
 <div ng-bind="{{ lazy ('expr') }}"></div>
 ```
 
