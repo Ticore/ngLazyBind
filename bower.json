@@ -1,0 +1,17 @@
+{
+  "name": "angular-lazybind",
+  "version": "0.7.5",
+  "main": "ngLazyBind.js",
+  "dependencies": {},
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "Gruntfile.js",
+    "package.json",
+    ".idea",
+    "docs"
+  ]
+}
