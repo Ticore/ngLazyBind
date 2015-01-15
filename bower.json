@@ -1,5 +1,5 @@
 {
-  "name": "angular-lazy-bind",
+  "name": "angular-lazybind",
   "version": "0.7.5",
   "main": "ngLazyBind.js",
   "dependencies": {},
