@@ -86,6 +86,6 @@
     };
 
     var app = angular.module("lazyBind", []);
-    app.factory("$lazyBind", lazyBindProvider);
+    app.factory("$lazyBind", ['$cacheFactory', '$timeout', lazyBindProvider]);
 
 })();
